@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github pages](https://github.com/rahmi1016/notifications-page-main))
+- Solution URL: [Github pages](https://github.com/rahmi1016/notifications-page-main)
 - Live Site URL: [Live site](https://rahmi1016.github.io/notifications-page-main/)
 
 ## My process
