@@ -1,0 +1,30 @@
+@use '../utils' as u;
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--very-light-grayish-blue);
+}
+.container {
+    width: u.rem(730);
+    height: u.rem(845);
+    background-color: var(--white);
+    padding: u.rem(30);
+    border-radius: u.rem(10);
+    cursor: pointer;
+
+    @include u.breakpoint-down(medium) {
+        width: u.rem(375);
+        height: u.rem(901);
+        padding: u.rem(15); 
+    }
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+}

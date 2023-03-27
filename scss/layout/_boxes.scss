@@ -1,0 +1,86 @@
+@use '../utils' as u;
+
+nav {
+    margin-bottom: u.rem(32);
+}
+
+.number {
+    width: u.rem(32);
+    height: u.rem(26);
+    background-color: var(--navy);
+    color: var(--white);
+    text-align: center;
+    padding-top: u.rem(2);
+    border-radius: u.rem(4);
+    margin-right: u.rem(349);
+    @include u.breakpoint-down(medium) {
+        margin-right: 0;
+        width: u.rem(30);
+        height: u.rem(24);
+    }
+
+}
+
+.box {
+    padding: u.rem(16);
+    display: flex;
+    margin-bottom: u.rem(8);
+    background-color: var(--very-light-grayish-blue);
+    border-radius: u.rem(6);
+}
+.read {
+    background-color: var(--white);
+}
+
+
+
+.avatar {
+    width: u.rem(42);
+    height: u.rem(42);
+    margin-right: u.rem(16);
+}
+
+.photo {
+    width: u.rem(42);
+    height: u.rem(42);
+    margin-left: u.rem(180);
+    @include u.breakpoint-down(medium) {
+        margin-left: u.rem(2);
+    }
+}
+
+.dot {
+    width: u.rem(6);
+    height: u.rem(6);
+    border-radius: 50%;
+    background-color: tomato;
+    display: inline-flex;
+    margin-bottom: u.rem(2);
+
+}
+
+.message {
+    width: u.rem(560);
+    height: u.rem(100);
+    background-color: var(--white);
+    border: 0.5px solid var(--light-grayish-blue-1);
+    border-radius: u.rem(8);
+    padding-left: u.rem(20);
+    padding-right: u.rem(20);
+    padding-top: u.rem(16);
+    margin-left: u.rem(80);
+    margin-bottom: u.rem(32);
+    p {
+       margin: auto;
+    }
+    @include u.breakpoint-down(medium) {
+        width: u.rem(257);
+        height: u.rem(117);
+        padding-left: u.rem(16);
+        padding-right: u.rem(16);
+    }
+    &:hover {
+        background-color: var(--light-grayish-blue-1);
+    }
+ }
+

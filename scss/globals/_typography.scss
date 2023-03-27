@@ -1,0 +1,87 @@
+@use '../utils' as u;
+
+
+body {
+    font-family: u.$jakarta;
+    font-size: u.rem(16);
+
+    @include u.breakpoint-down(medium) {
+        font-size: u.rem(14);
+    }
+}
+.banner {
+    font-size: u.rem(24);
+    font-weight: bold;
+    margin-right: u.rem(12);
+    @include u.breakpoint-down(medium) {
+        font-size: u.rem(20);
+    }
+}
+
+.number {
+    font-size: u.rem(16);
+    @include u.breakpoint-down(medium) {
+        font-size: u.rem(14);
+    }
+}
+
+.marks {
+    font-weight: 500;
+    color: var(--dark-grayish-blue);
+    @include u.breakpoint-down(medium) {
+        margin-left: u.rem(72);
+    }
+    &:hover {
+        color: var(--navy);
+    }
+}
+
+.box p {
+    margin: 0;
+}
+
+.box-picture p {
+    margin: 0;
+    width: u.rem(536);
+}
+
+.name {
+    font-weight: bold;
+    margin-right: u.rem(3);
+    &:hover {
+        color: var(--navy);
+    }
+}
+
+.activity {
+    color: var(--dark-grayish-blue);
+    margin-right: u.rem(3);
+}
+
+.event {
+    font-weight: bold;
+    color: var(--very-dark-blue);
+    margin-right: u.rem(3);
+    &:hover {
+        color: var(--navy);
+    }
+}
+
+.time {
+    color: var(--grayish-blue);
+}
+
+.message {
+    color: var(--dark-grayish-blue);
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+
+    &a {
+        color: hsl(228, 45%, 44%);
+      }
+      
+  }
+  
