@@ -33,8 +33,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github pages](https://github.com/rahmi1016/notifications-page-main)
-- Live Site URL: [Live site](https://rahmi1016.github.io/notifications-page-main/)
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
 
@@ -64,6 +64,8 @@ It felt all over the place when I started this project. I still felt the website
 - [Vanilla JS add/remove/toggle on click](https://codepen.io/8eni/pen/MaGVrq?editors=1010) - This helped me understanding onclick function
 
 - [How to get child element by class name?](https://stackoverflow.com/questions/12166753/how-to-get-child-element-by-class-name) - This helped me to hide the dot notification
+
+- [How to Set Style to an HTML element using JavaScript](https://www.tabnine.com/academy/javascript/how-to-set-style-to-an-html-element-using-javascript/)
 
 ## Author
 
