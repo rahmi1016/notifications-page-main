@@ -40,7 +40,7 @@ nav {
 
 .read {
     background-color: var(--white);
-    span.dot {
+    &span.dot {
         display: none;
     }
 }
